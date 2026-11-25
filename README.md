@@ -2,11 +2,13 @@
 
 > Working title. Alt: Keel, Liferaft, Anvil.
 
-**Keep the fleet printing.**
+**Restore, don't replace. Keep the fleet printing.**
 
 A maintenance project for Prusa MK2 and MK3 printers: tested restore procedures, firmware builds per board, calibration profiles, and a parts list you can still buy. The goal is a printer that produces the same quality as a new machine for functional work, at Prusa speed, with no cloud and no vendor account.
 
-Sister project to [Amalgam](../amalgam): Amalgam builds a printer from two donors. This keeps the printers you already own alive.
+**Website:** [michael-borck.github.io/drydock](https://michael-borck.github.io/drydock/)
+
+Sister project to [Amalgam](https://theamalgam.org): Amalgam builds a printer from two donors. This keeps the printers you already own alive.
 
 ---
 
@@ -17,6 +19,8 @@ The MK2 and MK3 are not obsolete. They are paid for, repairable, offline, and do
 Meanwhile the market has spent five years selling speed, cloud accounts, and apps. When a printer's board dies under that model, the owner is stuck. This project is the other path: a machine you own outright, can repair indefinitely, and never has to phone home.
 
 We are honest about the trade. An MK3 prints a good part in an hour that a CoreXY prints in twenty minutes. If you sell print time, buy the CoreXY. If you need a machine you can keep running for a decade, this is for you.
+
+We are honest about when to stop, too. Restore, don't replace is the default, and it has limits. If a repair or restoration costs more than a new printer, buy new, unless you are sure of better quality or speed, you are trying to prove a point, or you just love the challenge. Have a reason to spend the money. The comparison price is low: Amalgam, the sister project, aims at a whole printer for under $250 AUD.
 
 ## What this is
 
@@ -40,13 +44,17 @@ People who inherited or cheaply bought a Prusa. Schools and makerspaces that can
 
 ```
 README.md
+_quarto.yml          Site configuration (Quarto)
+index.qmd            Home page
+site/                Logo and stylesheet for the site
 docs/
   manifesto.md        The pitch and the refusal
   expectations.md     Honest quality table: what matches, what doesn't
   philosophy.md       Why preservation beats replacement
 adr/                  Architecture Decision Records
   adr-0001-preserve-not-modernise.md
-machines/             Per-board notes: mk2-rambo, mk3s-einsy, mk3s-xbuddy, mini
+  adr-0002-set-and-forget.md
+machines/             Fleet registry and per-machine notes. Kept private.
 runbooks/             Restore, mechanical refresh, firmware build, calibration
 parts/                BOM, sources, spares and donor registry
 profiles/             PrusaSlicer and Orca profiles
@@ -57,12 +65,14 @@ _archive/             Old imports, kept for reference. Not part of the project.
 
 | Area | Status |
 |------|--------|
+| Website | Live, first version |
 | Pitch and framing | Done |
 | Honest expectations table | Draft |
 | Restore runbook | Planned |
 | Firmware matrix | Planned |
 | Calibration profiles | Planned |
-| Fleet registry | Planned |
+| Parts list | Planned |
+| Fleet registry | Kept private. Printers are published one at a time, as a showcase or a build page |
 
 ## Lineage
 
@@ -70,7 +80,7 @@ RepRap and Prusa have always been open machines. This project keeps that true.
 
 - Prusa MK2/MK3 firmware: [prusa3d/Prusa-Firmware](https://github.com/prusa3d/Prusa-Firmware) (GPLv3)
 - Klipper: [Klipper3d/klipper](https://github.com/Klipper3d/klipper)
-- Sister project: [Amalgam](../amalgam)
+- Sister project: [Amalgam](https://theamalgam.org)
 
 ## License
 

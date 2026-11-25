@@ -7,3 +7,13 @@ __pycache__/
 .venv/
 .idea/
 .vscode/
+
+# Quarto
+/.quarto/
+/_site/
+
+# The fleet registry and per-machine notes are kept private
+/machines/*
+!/machines/.gitkeep
+
+**/*.quarto_ipynb

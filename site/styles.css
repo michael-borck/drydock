@@ -1,0 +1,122 @@
+/* The custom home page has no layout of its own, so give it a readable width */
+#quarto-content.page-layout-custom {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Home page cards */
+.dd-hero,
+.dd-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.dd-hero {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  align-items: stretch;
+}
+
+.dd-grid {
+  margin-bottom: 0.75rem;
+}
+
+.dd-grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+}
+
+.dd-block,
+.dd-card {
+  margin: 1.75rem 0 1rem;
+}
+
+.dd-card {
+  background: color-mix(in srgb, var(--bs-body-color) 4%, var(--bs-body-bg));
+  border: 1px solid var(--bs-border-color);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.dd-grid .dd-card,
+.dd-hero .dd-card {
+  margin: 0;
+}
+
+.dd-pitch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dd-kicker,
+.dd-block h2,
+.dd-card h2 {
+  font-family: var(--bs-font-monospace);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bs-secondary-color);
+  margin: 0 0 0.75rem;
+}
+
+.dd-title {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.75rem;
+}
+
+.dd-lede,
+.dd-small {
+  color: var(--bs-secondary-color);
+}
+
+.dd-lead {
+  font-weight: 600;
+}
+
+.dd-small {
+  font-size: 0.875rem;
+}
+
+.dd-num {
+  display: block;
+  font-family: var(--bs-font-monospace);
+  font-size: 0.75rem;
+  color: var(--bs-secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.dd-grid b {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.dd-card p:last-child,
+.dd-card table {
+  margin-bottom: 0;
+}
+
+.dd-card table {
+  margin-top: 0.5rem;
+}
+
+.dd-btn {
+  display: inline-block;
+  font-family: var(--bs-font-monospace);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 6px;
+  padding: 0.3rem 0.75rem;
+  text-decoration: none;
+}
+
+/* The dark theme has a dark navbar, so show the white logo there.
+   Quarto only displays .dark-content images in the dark theme. */
+.navbar-logo.dark-content {
+  content: url("logo-light.png");
+}

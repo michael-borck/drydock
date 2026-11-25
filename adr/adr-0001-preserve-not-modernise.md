@@ -1,6 +1,10 @@
+---
+pagetitle: "ADR-0001: Preserve and maintain, do not modernise"
+---
+
 # ADR-0001: Preserve and maintain, do not modernise
 
-**Status:** Accepted
+**Status:** Superseded by [ADR-0002](adr-0002-set-and-forget.md)
 **Date:** 2026-11-25
 
 ## Context

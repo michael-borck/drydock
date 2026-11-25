@@ -1,8 +1,30 @@
+---
+pagetitle: "Drydock: keep the fleet printing"
+---
+
 # Drydock: keep the fleet printing
 
-**Preservation, not nostalgia.**
+**The Prusa feel: set and forget.**
 
 A printer you own is a printer you can keep.
+
+---
+
+## The mission
+
+1. **Give a printer the Prusa feel: set and forget.**
+2. **It is not speed.** If you need to print faster, get another printer, as cheaply as you can.
+3. **Don't retire a machine that still works** because something newer came along.
+
+Our first MK3S felt like set and forget after an Ender. Everything here is an attempt to get that feeling back, or onto hardware that never had it.
+
+---
+
+## Restore, don't replace
+
+That is the default, and it has limits. If a repair or restoration costs more than a new printer, buy new, unless you are sure of better quality or speed, you are trying to prove a point, or you just love the challenge. Have a reason to spend the money.
+
+The comparison price is low. Amalgam, the sister project, aims at a whole printer for under $250 AUD.
 
 ---
 
@@ -24,6 +46,7 @@ We reject the appliance model: a cloud account to slice, an app to monitor, a cl
 4. **Documented, not remembered.** A procedure outlives the person who knew it.
 5. **Honest about limits.** We say what an MK3 cannot do, so expectation does not become disappointment.
 6. **Same lineage as Amalgam.** Build from scrap, or revive what exists. Both are sovereignty.
+7. **Experiments ask one question.** How far can set and forget go? What is learned gets written up.
 
 ## What quality means here
 
@@ -43,4 +66,4 @@ If you want set-and-forget at speed, buy an appliance. If you want a machine you
 
 ---
 
-*The build-from-scrap sibling is [Amalgam](../../amalgam).*
+*The build-from-scrap sibling is [Amalgam](https://theamalgam.org).*

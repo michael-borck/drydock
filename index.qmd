@@ -1,0 +1,84 @@
+---
+pagetitle: "Drydock"
+description-meta: "Restore, don't replace. Restore procedures, firmware builds, profiles and a parts list for the Prusa MK2 and MK3."
+page-layout: custom
+toc: false
+---
+
+```{=html}
+<div class="dd-hero">
+  <div class="dd-card dd-pitch">
+    <p class="dd-kicker">Preserving Prusa printers</p>
+    <h1 class="dd-title">Restore, don't replace.</h1>
+    <p class="dd-lede">Keep the fleet printing. Restore procedures, firmware builds, profiles and a parts list for the Prusa MK2 and MK3. No cloud, no vendor account.</p>
+  </div>
+  <div class="dd-card">
+    <h2 class="dd-kicker">When to buy new</h2>
+    <p class="dd-lead">Restore, don't replace is the default, and it has limits.</p>
+    <p>If a repair or restoration costs more than a new printer, buy new, unless you are sure of better quality or speed, you are trying to prove a point, or you just love the challenge. Have a reason to spend the money.</p>
+    <p class="dd-small">The comparison price is low. Amalgam, the sister project, aims at a whole printer for under $250 AUD.</p>
+  </div>
+</div>
+```
+
+::: {.dd-block}
+## The mission
+
+```{=html}
+<div class="dd-grid dd-grid-3">
+  <div class="dd-card">
+    <span class="dd-num">01</span>
+    <b>Set and forget</b>
+    <p>Give a printer the Prusa feel. That is the whole goal.</p>
+  </div>
+  <div class="dd-card">
+    <span class="dd-num">02</span>
+    <b>Not speed</b>
+    <p>If you need to print faster, get another printer, as cheaply as you can.</p>
+  </div>
+  <div class="dd-card">
+    <span class="dd-num">03</span>
+    <b>Nothing wasted</b>
+    <p>Don't retire a machine that still works because something newer came along.</p>
+  </div>
+</div>
+```
+
+The full version, and the reason behind it, is on the [Mission](docs/manifesto.md) page.
+:::
+
+::: {.dd-card}
+## The honest trade
+
+| Capability | Maintained MK3S | Modern CoreXY |
+|:---|:---|:---|
+| Best-case quality, slow and tuned | Equal | Equal |
+| Quality at 150-300 mm/s | Behind | Ahead |
+| Tall, thin parts | Behind | Ahead |
+| Repairability | Ahead | Behind |
+| Firmware openness | Ahead | Behind |
+| Cloud requirement | None | Often yes |
+
+The full table, with notes, is on the [Expectations](docs/expectations.md) page.
+:::
+
+::: {.dd-card}
+## What this is, and how far it has got
+
+| Area | Status |
+|:---|:---|
+| Mission and framing | Done |
+| Honest expectations table | Draft |
+| Restore runbook | Planned |
+| Firmware matrix | Planned |
+| Calibration profiles | Planned |
+| Parts list | Planned |
+:::
+
+::: {.dd-card}
+## Building from scrap instead?
+
+Amalgam, the sister project, builds a printer from two donors. Drydock keeps the printers you already own alive.
+
+[theamalgam.org](https://theamalgam.org){.dd-btn}
+:::

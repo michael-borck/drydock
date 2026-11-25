@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - "docs/*.md"
+    - "adr/*.md"
+
+website:
+  title: "Drydock"
+  description: "Restore, don't replace. Restore procedures, firmware builds, profiles and a parts list for the Prusa MK2 and MK3."
+  repo-url: https://github.com/michael-borck/drydock
+  repo-actions: [source]
+  navbar:
+    logo: site/logo.png
+    logo-alt: "Drydock"
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Mission
+        href: docs/manifesto.md
+      - text: Expectations
+        href: docs/expectations.md
+      - text: ADRs
+        menu:
+          - text: "ADR-0002: The Prusa feel, set and forget"
+            href: adr/adr-0002-set-and-forget.md
+          - text: "ADR-0001: Preserve and maintain, do not modernise"
+            href: adr/adr-0001-preserve-not-modernise.md
+    right:
+      - icon: box-arrow-up-right
+        text: Amalgam
+        href: https://theamalgam.org
+  page-footer:
+    left: "Docs: CC BY-SA 4.0. Code and configs: GPLv3."
+    right: "Sister project: [Amalgam](https://theamalgam.org)"
+    border: true
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: site/styles.css
+    toc: true
+    link-external-newwindow: true
