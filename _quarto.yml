@@ -5,9 +5,12 @@ project:
     - index.qmd
     - "docs/*.md"
     - "adr/*.md"
+  resources:
+    - CNAME
 
 website:
   title: "Drydock"
+  site-url: https://drydock.8020workshop.com/
   description: "Restore, don't replace. Restore procedures, firmware builds, profiles and a parts list for the Prusa MK2 and MK3."
   repo-url: https://github.com/michael-borck/drydock
   repo-actions: [source]

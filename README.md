@@ -6,7 +6,7 @@
 
 A maintenance project for Prusa MK2 and MK3 printers: tested restore procedures, firmware builds per board, calibration profiles, and a parts list you can still buy. The goal is a printer that produces the same quality as a new machine for functional work, at Prusa speed, with no cloud and no vendor account.
 
-**Website:** [michael-borck.github.io/drydock](https://michael-borck.github.io/drydock/)
+**Website:** [drydock.8020workshop.com](https://drydock.8020workshop.com/)
 
 Sister project to [Amalgam](https://theamalgam.org): Amalgam builds a printer from two donors. This keeps the printers you already own alive.
 
@@ -20,7 +20,7 @@ Meanwhile the market has spent five years selling speed, cloud accounts, and app
 
 We are honest about the trade. An MK3 prints a good part in an hour that a CoreXY prints in twenty minutes. If you sell print time, buy the CoreXY. If you need a machine you can keep running for a decade, this is for you.
 
-We are honest about when to stop, too. Restore, don't replace is the default, and it has limits. If a repair or restoration costs more than a new printer, buy new, unless you are sure of better quality or speed, you are trying to prove a point, or you just love the challenge. Have a reason to spend the money. The comparison price is low: Amalgam, the sister project, aims at a whole printer for under $250 AUD.
+We are honest about when to stop, too. Restore, don't replace is the default, and it has limits. If a repair or restoration costs more than a new printer, buy new, unless you are sure of better quality or speed, you are trying to prove a point, or you just love the challenge. Have a reason to spend the money. The comparison price is low: Amalgam, the sister project, aims at a whole printer for under $300 AUD.
 
 ## What this is
 

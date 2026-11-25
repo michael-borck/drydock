@@ -16,7 +16,7 @@ toc: false
     <h2 class="dd-kicker">When to buy new</h2>
     <p class="dd-lead">Restore, don't replace is the default, and it has limits.</p>
     <p>If a repair or restoration costs more than a new printer, buy new, unless you are sure of better quality or speed, you are trying to prove a point, or you just love the challenge. Have a reason to spend the money.</p>
-    <p class="dd-small">The comparison price is low. Amalgam, the sister project, aims at a whole printer for under $250 AUD.</p>
+    <p class="dd-small">The comparison price is low. Amalgam, the sister project, aims at a whole printer for under $300 AUD.</p>
   </div>
 </div>
 ```

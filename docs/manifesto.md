@@ -24,7 +24,7 @@ Our first MK3S felt like set and forget after an Ender. Everything here is an at
 
 That is the default, and it has limits. If a repair or restoration costs more than a new printer, buy new, unless you are sure of better quality or speed, you are trying to prove a point, or you just love the challenge. Have a reason to spend the money.
 
-The comparison price is low. Amalgam, the sister project, aims at a whole printer for under $250 AUD.
+The comparison price is low. Amalgam, the sister project, aims at a whole printer for under $300 AUD.
 
 ---
 
